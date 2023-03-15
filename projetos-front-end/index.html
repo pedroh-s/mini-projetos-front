@@ -11,7 +11,7 @@
         referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css">
-    <title>Napvbar</title>
+    <title>Navbar</title>
 </head>
 <body>
     <header>
@@ -41,23 +41,12 @@
        <main>
         <section id="hero">
             <h1>Welcome</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum harum aliquam <br>
+                 voluptates sequi fugit iusto nesciunt culpa.
+            </p>
         </section>
        </main>
-
-       <script>
-        const toggleBtn = document.querySelector('.toggle_btn')
-        const toggleBtnIcon = document.querySelector('.toggle_btn i')
-        const dropDownMenu = document.querySelector('.dropdown_menu')
-
-        toggleBtn.onclick = function () {
-            dropDownMenu.classList.toggle('open')
-            const isOpen = dropDownMenu.classList.contains('open')
-
-            toggleBtnIcon.classList = isOpen
-            ?'fa-solid fa-xmark'
-            :'fa-solid fa-bars'
-        }
-       </script>
+       <script src="script.js"></script>
     </header>
 </body>
 </html>
